@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+}
+
+.background {
+    background-image: url('./assets/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg');
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    right: -20px;
+    left: -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter:blur(20px);
+}
